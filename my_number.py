@@ -1,2 +1,2 @@
-number = "+523322557702"
+number = ["Add_your_phone_number"]
 
