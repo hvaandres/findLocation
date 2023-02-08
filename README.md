@@ -9,7 +9,7 @@ I used [OpenCage Geocoding API](https://opencagedata.com/)
 
 # Phone number
 
-In the mu_number.py, you will need to add your telephone number with the country code
+In the my_number.py, you will need to add your telephone number with the country code
 
 # Location
 
