@@ -1,11 +1,12 @@
 import phonenumbers
 import folium
 from my_number import number
+from opencage.geocoder import OpenCageGeocode
 from phonenumbers import geocoder
 from phonenumbers import carrier
 from phonenumbers import carrier
 
-authentication_key = ["Add_your_token_in_here"]
+authentication_key = [""]
 
 sanNumber = phonenumbers.parse(number)
 myLocation = geocoder.description_for_number(sanNumber, "en")
@@ -29,4 +30,4 @@ print(carrier.name_for_number(my_service_provider, "en"))
 print(results)
 print(lat, lng)
 
-myMap.save("location.html")
+myMap.save("number8.html")
